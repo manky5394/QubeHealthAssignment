@@ -143,7 +143,7 @@ class _DatePickerUiState extends State<DatePickerUi> {
       context: context,
       initialDate: selectedDate,
       firstDate: DateTime(2010),
-      lastDate: DateTime(2025),
+      lastDate: DateTime.now(),
     );
     if (selected != null && selected != selectedDate) {
       setState(() {
